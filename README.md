@@ -39,7 +39,7 @@ Car-Damage-Detection/
 │
 ├── Media/                 # Dataset (images, annotations)
 ├── Model/               # Trained models / model definitions
-├── Weights/            # Jupyter notebooks for training & experiments
+├── Weights/            # Model performance results
 ├── requirements.txt      # Python dependencies
 └── README.md
 ```
