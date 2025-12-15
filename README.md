@@ -39,18 +39,12 @@ Car-Damage-Detection/
 │
 ├── Media/                 # Dataset (images, annotations)
 ├── Model/               # Trained models / model definitions
-├── notebooks/            # Jupyter notebooks for training & experiments
-├── scripts/              # Training, inference, and preprocessing scripts
-├── results/              # Output images, predictions, metrics
+├── Weights/            # Jupyter notebooks for training & experiments
 ├── requirements.txt      # Python dependencies
 └── README.md
 ```
 
-> Folder names may vary depending on experiments, but the structure reflects a standard ML workflow.
-
----
-
-## 🔍 Dataset Description
+## Dataset Description
 
 * Images of cars with **various types of damage**
 * Annotated with:
@@ -62,17 +56,16 @@ The dataset can be extended to include **healthy (undamaged) cars** so the pipel
 
 ---
 
-## 🛠 Technologies Used
+## Technologies Used
 
 * **Python**
 * **OpenCV**
 * **YOLO (You Only Look Once)** for object detection
-* **PyTorch / TensorFlow** (depending on implementation)
 * **Jupyter Notebook** for experimentation
 
 ---
 
-## ▶️ How to Run the Project
+## How to Run the Project
 
 1. Clone the repository:
 
@@ -96,27 +89,18 @@ The dataset can be extended to include **healthy (undamaged) cars** so the pipel
 
 ---
 
-## 📈 Example Output
+## Example Output
 
 * Bounding boxes around damaged areas
 * Labels indicating damaged parts
 * Confidence scores for predictions
 
-> Screenshots or sample outputs can be added here for better visualization.
+<img width="1000" height="666" alt="run" src="https://github.com/user-attachments/assets/948c25b8-d20a-4fb1-9d65-4d298f0d45b9" />
 
 ---
 
-## 🚀 Future Improvements
-
-* Add car **brand/model/year classifier**
-* Integrate **repair cost prediction model**
-* Deploy as a **web or mobile application**
-* Improve accuracy with larger and more diverse datasets
-
----
-
-## 👤 Author
+## Author
 
 **Maya Mohammed**
 
-This project was developed as part of an exploration into **computer vision and AI-based damage assessment**. Feel free to explore, fork, or extend the system.
+This project was developed as part of an exploration into **computer vision and AI-based damage assessment**.
